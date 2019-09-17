@@ -10,12 +10,16 @@
     "csv-parser": "^2.3.0",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "factory-bot": "^6.1.4",
     "morgan": "~1.9.1",
     "pg": "^7.12.1",
     "sequelize": "^5.18.4",
     "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
-    "jake": "latest"
+    "babel-jest": "^24.9.0",
+    "jake": "latest",
+    "shelljs": "^0.8.3",
+    "supertest": "^4.0.2"
   }
 }
