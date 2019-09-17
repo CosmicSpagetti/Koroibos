@@ -15,13 +15,13 @@ module.exports = {
         type: Sequelize.STRING
       },
       age: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       height: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       weight: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       team: {
         type: Sequelize.STRING
