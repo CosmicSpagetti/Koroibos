@@ -4,9 +4,6 @@ var app = require('../../app');
 var cleanup = require('../helper/test_clear_database');
 
 describe('api', () => {
-  afterAll(async() => {
-    cleanup();
-  });
 
   test('should return overall olympian stats', async() => {
     return await request(app).get("/api/v1/olympian_stats")
