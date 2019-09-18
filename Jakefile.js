@@ -1,4 +1,4 @@
-var OlympicStats = require('./models').Olympian
+var Olympian = require('./models').Olympian
 var csv = require('csv-parser')
 var fs = require('fs');
 
@@ -7,7 +7,7 @@ task('seedDataBase', () => {
   fs.createReadStream('data.csv')
   .pipe(csv())
   .on('data', (olympian) => {
-    OlympicStats.create({
+    Olympian.create({
       name: olympian.Name,
       sex: olympian.Sex,
       age: olympian.Age,
