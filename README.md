@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/46055043/65186987-651fb780-da5a-11e9-8177-113b31eee5d4.png)
+
 # Koroibos
 An Api Designed around the 2016 Olympic Stats. Built for grabbing statistics out of import csv from the olympics.
 
@@ -21,12 +23,12 @@ To install this project locally, follow these directions.
 * Install the requirements using npm:
 > npm install
 
-  This will install the required pacakges for the project.
+  This will install the required packages for the project.
 
-* Create and migrate the local database using sequelize:
-   npx sequelize db:create
-   npx sequelize db:migrate 
-   npx jake seedDataBase
+#### Create and migrate the local database using sequelize:
+* npx sequelize db:create 
+* npx sequelize db:migrate 
+* npx jake seedDataBase
 
 * As an Express app, you are able to start the server using the following command:
  npm start
