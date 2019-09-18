@@ -1,4 +1,4 @@
-var OlympicStats = require('./models').OlympicStats
+var OlympicStats = require('./models').Olympian
 var csv = require('csv-parser')
 var fs = require('fs');
 
